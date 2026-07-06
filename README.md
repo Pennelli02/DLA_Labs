@@ -33,11 +33,11 @@ Once activated, you can run the notebooks with Jupyter or your preferred IDE (e.
 ## Repo Structure
 The repository is organized into three subfolders, one for each lab:
 - Lab1
-    -**DLA-Lab1.ipynb**: A notebook containing the solutions to all the exercises.
+    - **DLA-Lab1.ipynb**: A notebook containing the solutions to all the exercises.
 - Lab2
-    -**DLA-Lab2.ipynb**: A notebook containing the solutions of first and second exercises
-    -**GradioApp**: a folder containing the solutions of third exercise
+    - **DLA-Lab2.ipynb**: A notebook containing the solutions of first and second exercises
+    - **GradioApp**: a folder containing the solutions of third exercise
 - Lab4
-    -**DLA-Lab4.ipynb**: A notebook containing the solutions to all the exercises.
+    - **DLA-Lab4.ipynb**: A notebook containing the solutions to all the exercises.
   
 Each of the three subfolders has a dedicated README.md file that explains the exercise in detail.
