@@ -18,8 +18,9 @@ Lab4/
 └── README.md
 ```
  
-> **Note:** `data/` and `runs/` are generated automatically the first time the notebook is executed.
->To skip re-training from scratch, the notebook can load the provided checkpoints (`resnet18_best.pth`, `simplecnn_best.pth`, `adv_cnn_best.pth`) directly via the `load_checkpoint()` utility.
+**Note:** `data/` and `runs/` are generated automatically the first time the notebook is executed.
+
+To skip re-training from scratch, the notebook can load the provided checkpoints (`resnet18_best.pth`, `simplecnn_best.pth`, `adv_cnn_best.pth`) directly via the `load_checkpoint()` utility.
  
 ---
 ## Implementations
