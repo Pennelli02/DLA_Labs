@@ -73,6 +73,7 @@ This is likely because the attacks primarily targeted the ID dataset, reducing t
 A batched version of the targeted FGSM attack was implemented (`FGSM_batch`) and evaluated systematically:
 - For every CIFAR-10 class as the attack target, the **Attack Success Rate (ASR)** and **robust accuracy** were measured across the test set (excluding samples already misclassified or already belonging to the target class).
 - The experiment was repeated across a range of perturbation budgets `epsilon` (from 3/255 to 16/255) to study the trade-off between attack strength and perturbation visibility.
+
 **Observations:** as `epsilon` increases, the **attack success rate increases** while the **model's robust accuracy decreases** — but larger perturbations also become **visibly more noticeable**, making the attack easier to detect by simple visual inspection.
  
 ---
