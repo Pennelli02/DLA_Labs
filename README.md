@@ -38,6 +38,6 @@ The repository is organized into three subfolders, one for each lab:
     - **DLA-Lab2.ipynb**: A notebook containing the solutions of first and second exercises
     - **GradioApp**: a folder containing the solutions of third exercise
 - Lab4
-    - **DLA-Lab4.ipynb**: A notebook containing the solutions to all the exercises.
+    - **Lab4_OOD.ipynb**: A notebook containing the solutions to all the exercises.
   
 Each of the three subfolders has a dedicated README.md file that explains the exercise in detail.
