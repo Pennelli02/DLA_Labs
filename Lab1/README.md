@@ -17,8 +17,9 @@ Lab1
 Where in the folder **paper_lab1** there are the papers where come from the ideas for the third esercise, in **runs** there are the experiments and training log (tensorboard) and in **_data** there is the dataset.
 
 ## Implemtations
-### Exercise 1
+### Exercise 1 
 In this exercise, we first perform an exploration of the data (Exploratory Data Analysis) on the GTSRB dataset. Next, we use a pre-trained ResNet18 to perform feature extraction. The features extracted in this way are used to train and evaluate an SVM. SVM like classification head obtain an accuracy about 63%. Instead using finetunig in different backbones like resnet18 obtain an accuracy about 90%
+
 ---
 ### Exercise 2
 In this exercise we do a refactor and added more generalitation on in this case of classifications managed by a parmeters cell. 
