@@ -50,3 +50,7 @@ Implemented as a standalone application (outside the notebook, as suggested by t
 See [`GradioApp/README.md`](./GradioApp/README.md) for the full explanation of how the application works, its files, and how to run it.
  
 ---
+## AI Usage Disclosure
+ 
+This notebook made use of **Claude** and **Gemini** mainly as support for fixing code errors, clarifying doubts, and searching for relevant Hugging Face documentation/resources. 
+ 
