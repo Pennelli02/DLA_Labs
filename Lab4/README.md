@@ -92,6 +92,8 @@ All checkpoints can be loaded with the notebook's `load_checkpoint(model, checkp
 ## References
  
 - Liang, S., Li, Y., Srikant, R. [*Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks (ODIN)*](https://arxiv.org/pdf/1706.02690.pdf) — informed the AUROC/AUPR-based evaluation approach for OOD detection (Exercise 1.2).
+- [*Out-of-Distribution Detection in Deep Neural Networks*] (https://medium.com/analytics-vidhya/out-of-distribution-detection-in-deep-neural-networks-450da9ed7044) - some basic informtions
+- [*Pytorch-ood*](https://github.com/kkirchheim/pytorch-ood) - python library on Deep Learning OOD detection useful to get some ispiration and examples of pipelines. Possible future implementations
 
 ## AI Usage Disclosure
  
