@@ -3,6 +3,7 @@
 This laboratory develops a methodology for **Out-of-Distribution (OOD) detection** and for measuring its quality, and then experiments with **adversarial attacks** (FGSM) and **adversarial training** to make a model more robust.
 
 The lab is divided into 3 exercises and everyone can find in **Lab4_OOD.ipynb**.
+
 ---
  
 ## Repository Structure
@@ -30,7 +31,7 @@ To skip re-training from scratch, the notebook can load the provided checkpoints
 Three classification models were fine-tuned/trained on CIFAR-10 to later be evaluated as OOD detectors:
 - **ViT-B/16** (`torchvision`, pretrained) — attempted but **discarded**: fine-tuning took considerably longer than the other models and only reached ~45% test accuracy.
 - **ResNet-18** (`torchvision`, pretrained, fine-tuned with a custom MLP head) — best classifier, reaching **~90% test accuracy**. The confusion matrix shows the model regularly confuses *dog* and *cat*.
-- **SimpleCNN** — a custom, from-scratch CNN (4 conv blocks + BatchNorm + global average pooling + MLP head), reaching **~78% test accuracy**.
+- **SimpleCNN** — a custom, from-scratch CNN (4 conv blocks + BatchNorm + global average pooling + MLP head), reaching **~79% test accuracy**.
 Given the poor cost/benefit ratio of ViT, only **ResNet-18** and **SimpleCNN** were carried forward for OOD detection.
  
 **OOD scoring functions** implemented:
