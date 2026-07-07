@@ -41,7 +41,7 @@ This exercise reframes traffic-sign classification as an **image retrieval** pro
  
 **Pipeline overview:**
 1. **Feature extraction** — a generic `get_feature_extractor` function supports multiple pretrained backbones:
-   - **VGG-11** (feature extraction at an intermediate layer)
+   - **VGG-11** 
    - **ResNet-50**, optionally extracting from intermediate residual blocks (`layer1`/`layer2`/`layer3`) instead of the final layer, combined with **GeM pooling** (Generalized Mean Pooling, `p=3`, as proposed in [3])
    - **ViT-B/16**, using the `[CLS]` token
    - **DINOv2** (ViT-B/14, loaded via `torch.hub`), using the `[CLS]` token, chosen based on findings in [4]
