@@ -40,6 +40,7 @@ Working with the [Cornell Rotten Tomatoes](https://huggingface.co/datasets/corne
   - a `compute_metrics` function reporting accuracy and F1 (via the `evaluate` library);
   - `TrainingArguments` covering optimizer (`AdamW`, `SGD`, fused variants), LR scheduler (`linear`, `cosine`), mixed precision (`fp16`/`bf16`), gradient clipping, and TensorBoard logging.
   - A `finetunepipe` wrapper function was implemented to quickly sweep over multiple training configurations (learning rate, scheduler, optimizer, epochs, batch size) and evaluate each on the test split.
+ 
 **Results:** the model tends to overfit quickly, so the best configurations use around **3–5 epochs**. Across the various hyperparameter combinations tested, accuracy and F1 score consistently land around **83–84%**, a clear improvement over the frozen-feature SVM baseline from Exercise 1.
  
 ---
