@@ -50,6 +50,7 @@ This exercise reframes traffic-sign classification as an **image retrieval** pro
 3. **Similarity & retrieval** — cosine similarity between L2-normalized query and gallery features is computed as a simple matrix product.
 4. **Evaluation** — retrieval quality is assessed with per-class Precision-Recall curves, per-class and mean Average Precision (mAP), and cross-checked against the [`pytorch-metric-learning`](https://kevinmusgrave.github.io/pytorch-metric-learning/) library's `AccuracyCalculator` (precision@1, mAP, mAP@R) to validate the custom implementation.
 5. **Classification** — a **Nearest-Mean Classifier (NMC)** is built on top of the retrieval pipeline: per-class centroids are computed from the (L2-normalized) gallery features, and each query is assigned to the class of its nearest centroid by cosine similarity.
+
 **Observations:**
 - The GTSRB training set is imbalanced (between 150 and 1500 images per class), which is expected to affect similarity-based performance more for under-represented classes.
 - The chosen backbones, pooling strategy (GeM), normalization, and evaluation metrics were directly inspired by the reference papers listed below.
